@@ -5,7 +5,7 @@ const Home = () => (
   <div className="content">
     <h1 className="homeH1">Welcome to the Travel Site</h1>
     <div className="content-wrapper">
-      <img src="/assets/images/volcano.jpg" alt="Travel Image" className="travel-image" />
+      <img src="/assets/images/volcano.jpg" alt="Taniti Volcano" className="travel-image" />
       <div className="text-section">
         <p>
           Welcome to Taniti, a stunning tropical paradise nestled in the Pacific Ocean! Though small in size, Taniti offers a rich variety of experiences with its pristine sandy and rocky beaches, lush rainforests, and breathtaking mountainous terrain, including a charming active volcano. This hidden gem is perfect for anyone seeking both adventure and relaxation.

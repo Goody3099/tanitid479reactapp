@@ -12,11 +12,11 @@ const Footer = () => (
         <p>Tourism Office Hours: Monday to Friday, 8:00 AM - 5:00 PM (Local Time Zone)</p>
       </div>
       <div className="footerSocialMedia">
-        <a href="#"><img src="/assets/images/facebook.png" alt="Facebook" /></a>
-        <a href="#"><img src="/assets/images/twitter.png" alt="Twitter" /></a>
-        <a href="#"><img src="/assets/images/instagram.png" alt="Instagram" /></a>
-        <a href="#"><img src="/assets/images/youtube.png" alt="YouTube" /></a>
-        <a href="#"><img src="/assets/images/linkedIn.png" alt="LinkedIn" /></a>
+        <a href="https://www.facebook.com/"><img src="/assets/images/facebook.png" alt="Facebook" /></a>
+        <a href="https://twitter.com/"><img src="/assets/images/twitter.png" alt="Twitter" /></a>
+        <a href="https://www.instagram.com/"><img src="/assets/images/instagram.png" alt="Instagram" /></a>
+        <a href="https://www.youtube.com/"><img src="/assets/images/youtube.png" alt="YouTube" /></a>
+        <a href="https://www.linkedin.com/"><img src="/assets/images/linkedIn.png" alt="LinkedIn" /></a>
       </div>
     </div>
     <div className="footerBottom">
