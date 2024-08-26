@@ -1,0 +1,172 @@
+.categoryContainer {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.categoryTitle {
+    text-align: center;
+    font-size: 42px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.categoryTypeList {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+    display: flex;
+    overflow-x: auto;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.categoryTypeItem {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #E0FFFF;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.categoryItem:hover {
+    background-color: #ddd;
+}
+
+.categoryCards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.categoryCard {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+    background-color: #E0FFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.categoryImage {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.categoryCardContent {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.categoryName {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.categoryDescription {
+    font-size: 22px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+.categoryDetails {
+    padding: 10px;
+    font-size: 18px;
+    color: #777;
+    display: flex;
+    flex-direction: column;
+}
+
+.categoryDetails div {
+    margin-bottom: 5px;
+}
+
+.categoryBookNowButton {
+    background-color: #00BFFF;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.categoryBookNowButton:hover {
+    background-color: #1E90FF;
+}
+
+@media (max-width: 1200px) {
+    .categoryTitle {
+        font-size: 36px;
+    }
+
+    .categoryCard {
+        width: 250px;
+    }
+
+    .categoryDescription {
+        font-size: 20px;
+    }
+
+    .categoryDetails {
+        font-size: 16px;
+    }
+
+    .categoryBookNowButton {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .categoryTitle {
+        font-size: 30px;
+    }
+
+    .categoryCard {
+        width: 100%;
+    }
+
+    .categoryDescription {
+        font-size: 18px;
+    }
+
+    .categoryDetails {
+        font-size: 14px;
+    }
+
+    .categoryBookNowButton {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 480px) {
+    .categoryTitle {
+        font-size: 24px;
+    }
+
+    .categoryDescription {
+        font-size: 16px;
+    }
+
+    .categoryDetails {
+        font-size: 12px;
+    }
+
+    .categoryBookNowButton {
+        font-size: 10px;
+    }
+}

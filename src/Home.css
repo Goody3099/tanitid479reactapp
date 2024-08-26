@@ -1,0 +1,43 @@
+.content {
+    text-align: center;
+    margin: 30px auto;
+    max-width: 1200px;
+    padding: 20px;
+    background-color: #E0FFFF;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .homeH1 {
+    font-size: 42px;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .travel-image {
+    width: 50%;
+    height: auto;
+    aspect-ratio: 1 / 1;
+    border-radius: 12px;
+    border: 5px solid #00BFFF;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    object-fit: cover;
+  }
+  
+  .text-section {
+    max-width: 50%;
+    text-align: left;
+  }
+  
+  .text-section p {
+    font-size: 20px;
+    color: #000000;
+    margin-bottom: 25px;
+  }
